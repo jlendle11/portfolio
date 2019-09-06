@@ -1,0 +1,7 @@
+.about-container {
+    display: flex;
+    align-content: center;
+    width: -webkit-fill-available;
+    height: 800px;
+    background-color: rosybrown;
+}

@@ -1,0 +1,11 @@
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: -webkit-fill-available;
+    background-color: black;
+    color: azure;
+    height: 32px;
+}
