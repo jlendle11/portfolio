@@ -1,7 +1,16 @@
 .contact-container {
     display: flex;
-    align-content: center;
+    flex-direction: column;
+    align-items: center;
     width: -webkit-fill-available;
     height: 800px;
-    background-color: palegreen;
+    /* background-color: palegreen; */
+}
+
+.contact-filler {
+    height: 150px;
+}
+
+.contact-links {
+    font-size: 32px;
 }
