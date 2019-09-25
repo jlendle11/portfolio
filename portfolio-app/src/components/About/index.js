@@ -13,7 +13,7 @@ function About() {
                     alt="profile-pic">
                 </img>
             </div>
-            <p className="about-info">I am a software engineer, with skills in web development and coding software.
+            <p className="about-info">I am a software engineer, with skills in web and software development.
 My professional focus is creating innovative computer apps and programs that help solve modern everyday problems.</p>
         </div>
     )

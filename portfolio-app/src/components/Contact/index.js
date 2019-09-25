@@ -2,6 +2,9 @@ import React from 'react'
 import './Contact.css'
 import Sky from 'react-sky'
 import Gitty from '../Pictures/Gitty.png'
+import Button from 'react-bootstrap/Button'
+import ButtonToolbar from 'react-bootstrap/Button'
+
 
 
 
@@ -11,8 +14,7 @@ function Contact() {
             <Sky 
                 style={{'height': '200px'}}
                 images={{
-                    /* FORMAT AS FOLLOWS */
-                    0: "https://image.flaticon.com/icons/svg/174/174848.svg",  /* You can pass as many images as you want */
+                    0: "https://image.flaticon.com/icons/svg/174/174848.svg",  
                     1: "https://image.flaticon.com/icons/svg/174/174855.svg",
                     2: "https://image.flaticon.com/icons/svg/174/174879.svg",
                     3: "https://image.flaticon.com/icons/svg/174/174857.svg",
@@ -25,8 +27,14 @@ function Contact() {
                 background={'palettedvioletred'} /* color of background */
             />
             <div className="contact-filler"/>
-            <a className="contact-links" href="github.com/jlendle11">Github</a>
-            <a className="contact-links" href="https://www.linkedin.com/in/justinlendle/">Linkedin</a>
+            <ButtonToolbar className="link-holder">
+                <Button variant="outline-dark">
+                    <a className="contact-links" href="github.com/jlendle11">Github</a>
+                </Button>
+                <Button variant="outline-dark">
+                    <a className="contact-links" href="https://www.linkedin.com/in/justinlendle/">Linkedin</a>
+                </Button>
+            </ButtonToolbar>
         </div>
     )
 }

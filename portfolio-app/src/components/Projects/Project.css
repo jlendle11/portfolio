@@ -4,15 +4,33 @@
     align-items: center;
     width: -webkit-fill-available;
     height: 800px;
-    /* background-color: aqua; */
     font-size: 32px;
+    border-bottom: 1px solid black;
 }
 
 .project-filler {
     height: 150px;
 }
 
+
 .slide {
     height: 500px;
-    width: 800px;
+    width: 90vwpx;
+}
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) {
+       .slide {
+         width: 95vw;
+         height: 30vh;
+       }
+       .project-container {
+           height: 40vh;
+       }
+    }
+
+.carousel-control-next, 
+.carousel-control-prev {
+    background-color: lightgrey;
 }

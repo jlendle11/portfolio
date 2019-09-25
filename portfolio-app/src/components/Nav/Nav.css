@@ -8,4 +8,13 @@
     background-color: black;
     color: azure;
     height: 32px;
+    z-index: 5;
 }
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) {
+       .nav-container {
+         width: 100vw;
+       }
+    }

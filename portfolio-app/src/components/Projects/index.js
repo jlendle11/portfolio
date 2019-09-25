@@ -3,6 +3,7 @@ import './Project.css'
 import Carousel from 'react-bootstrap/Carousel'
 import Game from '../Pictures/Game.png'
 import apiApp from '../Pictures/apiApp.gif'
+import recipe from '../Pictures/recipe-app.png'
 
 function Project() {
     return (
@@ -18,6 +19,12 @@ function Project() {
                    <img className="slide" src={apiApp} alt="second-project-pic"/>
                    <Carousel.Caption>
                        <h3>Marvel API App</h3>
+                   </Carousel.Caption>
+               </Carousel.Item>
+               <Carousel.Item>
+                   <img className="slide" src={recipe} alt="third-project-pic"/>
+                   <Carousel.Caption>
+                       <h3>Recipe Postin App</h3>
                    </Carousel.Caption>
                </Carousel.Item>
            </Carousel>
