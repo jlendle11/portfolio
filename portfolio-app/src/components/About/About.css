@@ -9,7 +9,8 @@
 }
 
 .about-filler {
-    height: 150px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .about-header-img {
@@ -29,3 +30,21 @@
     width: 60%;
     text-align: center;
 }
+
+.about-skills-title {
+    font-weight: bold;
+    font-size: 26px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.skill-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+    width: 60%;
+}
+
+
+

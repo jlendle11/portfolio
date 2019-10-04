@@ -35,6 +35,7 @@ function Contact() {
                     <a className="contact-links" href="https://www.linkedin.com/in/justinlendle/">Linkedin</a>
                 </Button>
             </ButtonToolbar>
+            <h1 className="email">Email: lendlejustin@gmail.com</h1>
         </div>
     )
 }

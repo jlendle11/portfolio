@@ -24,7 +24,7 @@ function Project() {
                <Carousel.Item>
                    <img className="slide" src={recipe} alt="third-project-pic"/>
                    <Carousel.Caption>
-                       <h3>Recipe Postin App</h3>
+                       <h3>Recipe App</h3>
                    </Carousel.Caption>
                </Carousel.Item>
            </Carousel>

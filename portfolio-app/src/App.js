@@ -8,9 +8,6 @@ import About from './components/About'
 import './components/About/About.css'
 import Contact from './components/Contact'
 import './components/Contact/Contact.css'
-
-
-
 import './App.css';
 
 function App() {

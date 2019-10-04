@@ -11,6 +11,23 @@
     z-index: 5;
 }
 
+.night-mode-stuff {
+    background-color: darkgrey;
+    color: white;
+    border-color: black !important;
+}
+
+body.light-mode {
+    background-color: #fff !important;
+    color: #333 !important;
+    transition: background-color 0.3s ease !important;
+}
+
+body.dark-mode {
+    background-color: #1a1919 !important;
+    color: #999 !important;
+}
+
 @media only screen 
     and (device-width : 375px) 
     and (device-height : 812px) {
